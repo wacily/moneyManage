@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BurseManage"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="500">
+        Title="个人记账" Height="350" Width="500">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF4E4BDF" Offset="0"/>
+                <GradientStop Color="#FF2D2B7D" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid HorizontalAlignment="Center">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto" />
@@ -14,22 +20,27 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="50" />
                 <RowDefinition Height="50" />
-                <RowDefinition Height="120" />
+                <RowDefinition Height="160" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Label Grid.Column="0" Grid.Row="1">个人用户资金系统</Label>
+            <Label Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" FontSize="18"
+                   >家庭账目管理系统</Label>
             <Grid Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="80" />
                     <ColumnDefinition Width="300" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="40" />
-                    <RowDefinition Height="40" />
-                    <RowDefinition Height="40" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="60" />
                 </Grid.RowDefinitions>
-                <Label Grid.Row="0" Grid.Column="1">用户名：</Label>
-                <Label Grid.Row="1" Grid.Column="1">密码：</Label>
+                <Label Grid.Row="0" Grid.Column="0" Margin="0,8,0,0" FontSize="16">用户名：</Label>
+                <Label Grid.Row="1" Grid.Column="0" Margin="0,8,0,0" FontSize="16">密　码：</Label>
+                <TextBox Grid.Row="0" Grid.Column="1" Margin="0,6,0,6" Text="aaa" FontSize="18" FontWeight="Bold" Padding="5,5,0,0" Height="40"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Margin="0,6,0,6" Text="aaa" FontSize="18" FontWeight="Bold" Padding="5,5,0,0" Height="40"/>
+                <Button Grid.Row="2" Grid.Column="1" Width="105" Margin="30,10,165,10" Background="#FF0AD137" Foreground="#FFFAF9F9" BorderBrush="#FF13E058" FontWeight="Bold" FontSize="21.333">确定</Button>
+                <Button Grid.Row="2" Grid.Column="1" Width="105" Margin="165,10,30,10" FontSize="21.333" Background="#FF13CD1C" Foreground="#FFFAF7F7" BorderBrush="#FF0AC234" FontWeight="Bold">取消</Button>
             </Grid>
         </Grid>
     </Grid>
