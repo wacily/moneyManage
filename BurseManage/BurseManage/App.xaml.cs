@@ -13,6 +13,6 @@ namespace BurseManage
     /// </summary>
     public partial class App : Application
     {
-        //TODO:
+        //TODO: 主入口函数
     }
 }
