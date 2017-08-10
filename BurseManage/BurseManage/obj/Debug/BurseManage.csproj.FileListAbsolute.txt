@@ -12,3 +12,6 @@ E:\MyProject\moneyManage\BurseManage\BurseManage\obj\Debug\BurseManage.Propertie
 E:\MyProject\moneyManage\BurseManage\BurseManage\obj\Debug\BurseManage.csproj.GenerateResource.Cache
 E:\MyProject\moneyManage\BurseManage\BurseManage\obj\Debug\BurseManage.exe
 E:\MyProject\moneyManage\BurseManage\BurseManage\obj\Debug\BurseManage.pdb
+E:\GitHub\moneyManage\BurseManage\BurseManage\bin\Debug\BurseManage.exe.config
+E:\GitHub\moneyManage\BurseManage\BurseManage\obj\Debug\BurseManage.exe
+E:\GitHub\moneyManage\BurseManage\BurseManage\obj\Debug\BurseManage.pdb
